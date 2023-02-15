@@ -1,0 +1,63 @@
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(-45deg, #ffafbd, #2193b0, #cc2b5e, #ee9ca7,#42275a);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+/* @keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    } */
+/* } */
+
+#tablebg {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+}
+
+.mx-auto {
+    background-color: rgba(127, 217, 255, 0.244);
+    border-radius: 10px;
+
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+table,
+th,
+td {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 100px;
+    text-align: center;
+}
+
+#button {
+    background:green;
+    border: 1px solid black;
+    color: black;
+    box-shadow: 0px 10px #0000003e;
+}
+
+#button:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgba(223, 137, 24, 0.991);
+}
+
+#button:active {
+    background-color:rgba(223, 137, 24, 0.991);
+    box-shadow: 0 5px #000000;
+    transform: translateY(4px);
+}
